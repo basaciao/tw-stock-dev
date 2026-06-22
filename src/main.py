@@ -1,19 +1,10 @@
-import os
-import requests
+from telegram_service import send_message
 
-# 從 GitHub Secrets 取得資料
-TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("CHAT_ID")
 
-message = "🎉 恭喜！GitHub Actions 已成功執行！"
+def main():
 
-url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+    send_message("Hello World")
 
-payload = {
-    "chat_id": CHAT_ID,
-    "text": message
-}
 
-response = requests.post(url, data=payload)
-
-print(response.text)
+if __name__ == "__main__":
+    main()
