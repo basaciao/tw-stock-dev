@@ -1,0 +1,1 @@
+from technical.engine import calculate_all_indicators
