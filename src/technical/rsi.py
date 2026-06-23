@@ -1,7 +1,10 @@
-"""
-RSI Indicator
-"""
+from models.stock_data import StockData
 
-def calculate_rsi(stock_df):
 
-    return 0
+def calculate_rsi(stock: StockData):
+
+    history = stock.history
+
+    ...
+
+    return rsi
