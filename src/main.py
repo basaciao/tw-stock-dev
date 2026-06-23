@@ -1,10 +1,10 @@
-from telegram_service import send_message
-
+from technical.engine import calculate_all_indicators
 
 def main():
 
-    send_message("Hello World")
+    result = calculate_all_indicators(None)
 
+    print(result)
 
 if __name__ == "__main__":
     main()
