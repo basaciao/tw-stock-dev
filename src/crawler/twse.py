@@ -1,3 +1,5 @@
+import pandas as pd
+from models.stock_data import StockData
 import requests
 
 from config import TWSE_URL
