@@ -20,3 +20,6 @@ def get_twse_daily_data(date: str):
     data = res.json()
 
     return data
+
+def get_demo_stock():
+    pass
