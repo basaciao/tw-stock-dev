@@ -13,4 +13,8 @@ class StockData:
 
     stock_name: str
 
+    market: str
+
+    industry: str
+
     history: pd.DataFrame
