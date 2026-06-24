@@ -24,8 +24,32 @@ def get_twse_daily_data(date: str):
     return data
 
 def get_demo_stock():
-    history = pd.DataFrame(
-        {
-            "Date": [
-                "2026-06-20"
-            ],      
+history = pd.DataFrame(
+    {
+
+        "Date":[
+            "2026-06-20"
+        ],
+
+        "Open":[
+            105
+        ],
+
+        "High":[
+            110
+        ],
+
+        "Low":[
+            104
+        ],
+
+        "Close":[
+            109
+        ],
+
+        "Volume":[
+            50000
+        ]
+
+    }
+)
