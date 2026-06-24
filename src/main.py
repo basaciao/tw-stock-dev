@@ -2,7 +2,7 @@ from technical.engine import calculate_all_indicators
 
 def main():
 
-    result = calculate_all_indicators(None)
+    result = calculate_all_indicators(stock)
 
     print(result)
 
